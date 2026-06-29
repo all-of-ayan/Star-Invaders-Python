@@ -26,7 +26,7 @@ class Settings:
         self.fleet_direction = 1
 
         # How quickly the game speeds up. 
-        self.speedup_scale = 1.1
+        self.speedup_scale = 1.25
 
         self.initialize_dynamic_settings()
 
@@ -44,4 +44,3 @@ class Settings:
         self.ship_speed *= self.speedup_scale
         self.bullet_speed *= self.speedup_scale
         self.alien_speed *= self.speedup_scale
-        
